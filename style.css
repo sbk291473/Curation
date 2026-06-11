@@ -1,0 +1,664 @@
+body {
+    padding: 20px;
+}
+
+
+
+h1 {
+    font-style: italic;
+    font-family: "Ballet", cursive;
+    font-weight: 400;
+    font-size: 100px;
+    color:rgb(46, 70, 82);
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+h3 {
+    font-family: "IM Fell Double Pica SC", serif;;
+    font-size: 25px;
+    text-align: center;
+    color:rgb(22, 62, 38);
+}
+
+#mountain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+    justify-content: center;
+
+}
+
+#filmslit {
+    font-style: italic;
+    font-family: "Ballet", cursive;
+    color:rgb(178, 156, 156);
+    font-weight: 400;
+    padding-bottom: 5px;
+    font-size: 70px;
+    text-align: center;
+}
+
+#subtopic {
+    font-style: italic;
+    font-family: "Ballet", cursive;
+    color:rgb(137, 19, 19);
+    font-weight: 400;
+    border-bottom: 3px rgb(16, 14, 73) solid;
+    padding-bottom: 5px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#intro {
+    font-size: 17px;
+    font-style:italic;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+
+}
+
+* {
+    padding: 10;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.box-1 {
+    margin: 10px; /* 20px on all sides */
+    flex: 1;
+    height: 1050px;
+}
+
+#movieheader1 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(179, 92, 11);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.box-2 {
+    margin: 10px; /* 20px on all sides */
+    flex: 1;
+    height: 200px;
+}
+
+#movieheader2 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(77, 49, 14);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.box-3 {
+    margin: 10px; /* 20px on all sides */
+    flex: 1;
+    height: 200px;
+}
+
+#movieheader3 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(17, 112, 34);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#schumacher {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+#subtopicunderfilms {
+    font-style: italic;
+    font-family: "Ballet", cursive;
+    color:rgb(69, 61, 141);
+    font-weight: 400;
+    padding-bottom: 0px;
+    font-size: 45px;
+    text-align: left;
+}
+
+a {
+    color: rgb(42, 69, 82);
+}
+
+p {
+    font-family: "Old Standard TT", serif;
+    color: rgb(73, 61, 42);
+    text-indent: 50px;
+}
+
+#quote {
+    font-family: "IM Fell Double Pica SC", serif;
+    font-weight: 400px;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    color:rgb(29, 29, 90);
+}
+
+#martycollage:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+
+#whiplashcollage:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+
+#gatsbycollage:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+
+a:hover {
+    transform: scale(1.1);
+    font-style: italic;
+    color:brown
+}
+
+#headervideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#filmvideosubtopic {
+  position: relative; /* Acts as the anchor point for the absolute text */
+  width: 100%;
+  height: 250px;       /* Define your desired footer height */
+  overflow: hidden;
+}
+
+.image-footer {
+  position: relative; /* Acts as the anchor point for the absolute text */
+  width: 100%;
+  height: 250px;       /* Define your desired footer height */
+  overflow: hidden;    /* Prevents image overflow if it's too large */
+}
+
+.footer-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* Scale the image while maintaining aspect ratio */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;          /* Keeps image below the text layer */
+}
+
+.footer-content {
+  position: absolute;
+  z-index: 2;          /* Places text over the image layer */
+  
+  /* Centering the text perfectly inside the footer */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#filmvideo {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+ 
+.trifold_letter2 {
+  overflow: hidden;
+}
+
+.trifold_letter {
+  position: relative;
+  margin: 0 auto;
+  font-size: 0;
+  font-family: Papyrus;
+  width: 600px;
+  height: 240px;
+  max-width: 80%;
+  min-width: 50%;
+  transition: 2s;
+  transition-delay: 2s;
+}
+ 
+.trifold_letter:hover {
+  height: 600px;
+  transition: 2s;
+}
+ 
+.letter_cover {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  color: #383C45;
+  background: linear-gradient(344deg, rgba(255,254,242,1) 0%, rgba(248,246,224,1) 6%, rgba(244,241,215,1) 37%, rgba(238,235,203,1) 51%, rgba(247,245,222,1) 92%, rgba(255,254,242,1) 100%);
+  box-shadow: -2px 1px 5px 1px #00000010, 1px -2px 5px 1px #00000010;
+  border: solid #383C4550 1px;
+  width: 110%;
+  min-height: 240px;
+  max-height: 240px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 8;
+}
+ 
+.letter_cover:hover {
+  cursor: wait;
+}
+ 
+.trifold_letter:hover .letter_cover {
+  top: -100px;
+  left: 0px;
+  background: linear-gradient(344deg, rgba(254,252,231,1) 0%, rgba(251,249,226,1) 6%, rgba(244,241,215,1) 37%, rgba(236,232,195,1) 51%, rgba(249,246,213,1) 92%, rgba(255,253,225,1) 100%);
+  transform: rotate(15deg);
+  transition: 2s;
+  z-index: 0;
+}
+ 
+.letter_cover_text {
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  max-width: 33%;
+  min-width: 30%;
+  font-size: 20px;
+  overflow: visible;
+}
+ 
+.letter_cover_text_top {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  max-width: 33%;
+  min-width: 30%;
+  font-size: 15px;
+  overflow: visible;
+}
+ 
+.letter_cover_stamp {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 75px;
+  width: 80px;
+  min-width: 10%;
+  max-width: 30%;
+  background: #f5f5f5;
+  background-image: URL(stamp.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 3px;
+  box-shadow: 1px .5px 0px 0px #00000020, 1px .5px 0px 0px white inset;
+}
+ 
+.letter_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #383C45;
+  background: linear-gradient(176deg, rgba(255,251,240,1) 0%, rgba(245,235,207,1) 81%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-top: solid #383C4550 1px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 7;
+}
+ 
+.letter_top_text {
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  height: 170px;
+  max-width: 90%;
+  font-size: 18px;
+  overflow: auto;
+}
+ 
+.trifold_letter:hover .letter_top {
+  left: -20px;
+  transform: skew(5deg);
+  transition: 2s;
+}
+ 
+.letter_mid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #383C45;
+  background: linear-gradient(169deg, rgba(214,205,179,1) 0%, rgba(233,224,197,1) 52%, rgba(255,248,229,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 6;
+}
+ 
+.letter_mid_text {
+  position: relative;
+  margin: 0 auto;
+  top: -20px;
+  max-width: 90%;
+  height: 210px;
+  font-size: 18px;
+  overflow: auto;
+}
+ 
+.trifold_letter:hover .letter_mid {
+  top: 200px;
+  left: -20px;
+  transform: skew(-5deg);
+  transition: 2s;
+}
+ 
+.letter_bot {
+  position: absolute;
+  top: 0px;
+  left: .1px;
+  color: #383C45;
+  background: linear-gradient(353deg, rgba(255,251,240,1) 0%, rgba(242,231,201,1) 79%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-bottom: solid #383C4550 1px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 5;
+}
+ 
+.letter_bot_text {
+  position: relative;
+  top: -20px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 160px;
+  font-size: 18px;
+  overflow: auto;
+}
+ 
+.trifold_letter:hover .letter_bot {
+  top: 400px;
+  left: -20px;
+  transition: 2s;
+  transform: skew(5deg);
+}
+ 
+.trifold_letter2 {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 240px;
+  max-width: 80%;
+  min-width: 50%;
+  font-size: 0;
+  transition: 2s;
+  transition-delay: 2s;
+}
+ 
+.trifold_letter2:hover .letter_top2 {
+  left: 10px !important;
+  top: -20px !important;
+  transition: .5s !important;
+  z-index: 11;
+}
+ 
+.trifold_letter2:hover .letter_mid2 {
+  left: 10px !important;
+  top: 180px !important;
+  transition: .5s !important;
+  z-index: 10;
+}
+ 
+.trifold_letter2:hover .letter_bot2 {
+  left: 10px !important;
+  top: 380px !important;
+  transition: .5s !important;
+  z-index: 9;
+}
+ 
+.letter_top2 {
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  color: #383C45;
+  background: linear-gradient(176deg, rgba(255,251,240,1) 0%, rgba(245,235,207,1) 81%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-top: solid #383C4550 1px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 4;
+}
+ 
+.letter_top_text2 {
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  height: 170px;
+  max-width: 90%;
+  font-size: 18px;
+  overflow: auto;
+}
+ 
+.trifold_letter:hover .letter_top2 {
+  top: 50px;
+  left: 10px;
+  transform: skew(5deg);
+  transition: 2s;
+}
+ 
+.letter_mid2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #383C45;
+  background: linear-gradient(169deg, rgba(214,205,179,1) 0%, rgba(233,224,197,1) 52%, rgba(255,248,229,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 3;
+}
+ 
+.letter_mid_text2 {
+  position: relative;
+  top: -20px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 210px;
+  font-size: 18px;
+  overflow: auto;
+}
+ 
+.trifold_letter:hover .letter_mid2 {
+  top: 250px;
+  left: 10px;
+  transform: skew(-5deg);
+  transition: 2s;
+}
+ 
+.letter_bot2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #383C45;
+  background: linear-gradient(353deg, rgba(255,251,240,1) 0%, rgba(242,231,201,1) 79%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-bottom: solid #383C4550 1px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 2;
+}
+ 
+.letter_bot_text2 {
+  position: relative;
+  margin: 0 auto;
+  top: -20px;
+  max-width: 90%;
+  height: 160px;
+  font-size: 18px;
+  overflow: auto;
+}
+ 
+.trifold_letter:hover .letter_bot2 {
+  top: 450px;
+  left: 10px;
+  transition: 2s;
+  transform: skew(5deg);
+}
+ 
+.letter_bot_text::-webkit-scrollbar,
+.letter_mid_text::-webkit-scrollbar,
+.letter_top_text::-webkit-scrollbar,
+.letter_bot_text2::-webkit-scrollbar,
+.letter_mid_text2::-webkit-scrollbar,
+.letter_top_text2::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: block;
+}
+ 
+.letter_bot_text::-webkit-scrollbar:vertical,
+.letter_mid_text::-webkit-scrollbar:vertical,
+.letter_top_text::-webkit-scrollbar:vertical,
+.letter_bot_text2::-webkit-scrollbar:vertical,
+.letter_mid_text2::-webkit-scrollbar:vertical,
+.letter_top_text2::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+ 
+.letter_bot_text::-webkit-scrollbar-thumb,
+.letter_mid_text::-webkit-scrollbar-thumb,
+.letter_top_text::-webkit-scrollbar-thumb,
+.letter_bot_text2::-webkit-scrollbar-thumb,
+.letter_mid_text2::-webkit-scrollbar-thumb,
+.letter_top_text2::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(134,156,149,0) 0%, rgba(187,207,200,1) 48%, rgba(134,156,149,0) 100%);
+  border-radius: 8px;
+  border: 2px solid #ffffff25;
+}
+ 
+.letter_bot_text::-webkit-scrollbar-thumb:hover,
+.letter_mid_text::-webkit-scrollbar-thumb:hover,
+.letter_top_text::-webkit-scrollbar-thumb:hover,
+.letter_bot_text2::-webkit-scrollbar-thumb:hover,
+.letter_mid_text2::-webkit-scrollbar-thumb:hover,
+.letter_top_text2::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(134,156,149,0) 0%, rgba(140,154,149,1) 48%, rgba(134,156,149,0) 100%);
+  border-radius: 8px;
+  border: 2px solid #ffffff25;
+}
+ 
+.letter_bot_text::-webkit-scrollbar-track,
+.letter_mid_text::-webkit-scrollbar-track,
+.letter_top_text::-webkit-scrollbar-track,
+.letter_bot_text2::-webkit-scrollbar-track,
+.letter_mid_text2::-webkit-scrollbar-track,
+.letter_top_text2::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #ffffff25;
+}
+
+.box{
+    max-height: 400px;
+    border: 1px solid #2f2e57;
+    display: flex;
+    overflow-x:auto;
+}
+
+.box::-webkit-scrollbar {
+    width:0;
+}
+
+.box .item {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(26, 31, 53);
+    margin: 5px;
+    background-color: rgb(82, 87, 108);
+}
+
+.item p {
+    color: rgb(179, 182, 196);
+    margin: 0;
+        font-family: "Pinyon Script", cursive;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+}
+
+ /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+          background: #d4d2ca;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: whitesmoke;
+        border: 1px outset;
+        width: 5px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(79, 57, 57);
+    }
+
+
